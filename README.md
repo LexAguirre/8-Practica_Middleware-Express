@@ -22,31 +22,34 @@
 
 - ¿Qué es un middleware?
 
-  - text
+  - Es un software que colma lagunas entre otras aplicaciones, herramientas y bases de datos con el fin de prestar servicios unificados a los usuarios. La gente suele referirse al middleware como el pegamento que conecta los distintos dispositivos y plataformas de software.
 
 - ¿Cuál es el significado del término “MEAN stack”?
 
-  - text
+  - Se define como un conjunto de tecnologías basadas en JavaScript, recopiladas que se utilizan para desarrollar los sitios web complejos y las apps web (progresivas o receptivas). Para simplificar, MEAN se explica como un framework de JavaScript de full-stack, que simplifica y acelera el desarrollo de las apps y web.
 
 - ¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
 
-  - text
+  - Escritura de manejadores de peticiones con diferentes verbos HTTP en diferentes caminos URL (rutas).
+  - Integración con motores de renderización de "vistas" para generar respuestas mediante la introducción de datos en plantillas.
+  - Establecer ajustes de aplicaciones web como qué puerto usar para conectar, y la localización de las plantillas que se utilizan para renderizar la respuesta.
+  - Añadir procesamiento de peticiones "middleware" adicional en cualquier punto dentro de la tubería de manejo de la petición.
 
 - ¿Qué es una ruta en express?
 
-  - text
+  - Route middleware en Express es una forma de hacer algo antes de que una petición se procese. Este algo podrían ser cosas como comprobar si un usuario se ha autentificado (logueado con su cuenta por ejemplo), en definitiva, cualquier cosa que gustemos hacer antes de mandarle información al usuario.
 
 - ¿Qué es un “route handler” en express y para qué se utiliza?
 
-  - text
+  - Un route handler en Express se escribe de la siguiente manera: app.get('/', (req, res) => { res.send({ hi: 'there', }); }); Y así es como lo interpreta Express internamente: app es un objeto que representa el servidor Express creado, al que vamos a asociar el manejador de ruta.
 
 - ¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
 
-  - text
+  - El primero seria el directorio, el lugar en donde se encontrara el servidor asi como las direfentes direciones en las cuales se puede estar y tambien esta el request y resend dentro de un parentesis.
 
 - ¿Qué es lo que hace la instrucción res.send?
 
-  - text
+  - La función res.send() básicamente envía la respuesta HTTP. El parámetro del cuerpo puede ser un objeto String o Buffer o un objeto o un Array.
 
 - ¿Cuál es el motivo por el que express es tan popular?
 
