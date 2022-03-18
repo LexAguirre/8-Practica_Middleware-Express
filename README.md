@@ -61,7 +61,7 @@
 
 2. Inicializa NPM con npm init -y
 
-3. Instala el paquete express con npm i express
+3. Instala los paquete express con npm i express y nodemon con npm install -g nodemon
 
 4. Crea un nuevo archivo app.js
 
