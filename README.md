@@ -53,7 +53,7 @@
 
 - ¿Cuál es el motivo por el que express es tan popular?
 
-  - text
+  - Express.js es un framework para Node.js que sirve para ayudarnos a crear aplicaciones web en menos tiempo ya que nos proporciona funcionalidades como el enrutamiento, opciones para gestionar sesiones y cookies, y un largo etc. A su vez, Express hace lo mismo con Connect, con lo que tenemos un framwork ligero, rápido y muy útil.
 
 ## EXPLICACIÓN DEL PROCESO
 
